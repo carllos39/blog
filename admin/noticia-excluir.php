@@ -7,4 +7,5 @@ $idUsuario=$_SESSION['id'];
 $tipoUsuario=$_SESSION['tipo'];
 
 $noticias=lerUmaNoticia($conexao,$idNoticias,$idUsuario,$tipoUsuario);
+header("Location:noticias.php");
 ?>

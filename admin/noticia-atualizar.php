@@ -41,7 +41,7 @@ if(isset($_POST['atualizar'])){
             </div>
             <div>
                 <label for="imagem">Caso queira mudar, selecione outra imagem</label>
-                <input <?=$noticia['titulo']?> type="file" name="imagem" id="imagem" 
+                <input <?=$noticia['imagem']?> type="file" name="imagem" id="imagem" 
                 accept="image/png,image/jpeg,image/gif,image/svg+xml">
             </div>
             <button name="atualizar">Atualizar</button>
