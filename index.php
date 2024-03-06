@@ -4,7 +4,7 @@ require "inc/cabecalho.php";
 $listaDeNoticias=lerTodasNoticias($conexao);
 ?>
 
-<?php foreach ($listaDeNoticias as  $noticia) {?>
+<?php foreach($listaDeNoticias as  $noticia){?>
     
 
 <div>
